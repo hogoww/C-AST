@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCVisitor",
+	"category" : "ASTC-Core-visitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASTCWalkerVisitor",
+	"type" : "normal"
+}

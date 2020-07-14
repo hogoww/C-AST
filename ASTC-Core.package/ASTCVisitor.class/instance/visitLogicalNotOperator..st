@@ -1,0 +1,3 @@
+visiting
+visitLogicalNotOperator: aLogicalNotOperator
+	

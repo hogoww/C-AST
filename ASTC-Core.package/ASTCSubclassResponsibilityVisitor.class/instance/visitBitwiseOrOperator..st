@@ -1,0 +1,3 @@
+visiting
+visitBitwiseOrOperator: aBitwiseOrOperator
+	self subclassResponsibility

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCHierarchyWalkerVisitor",
+	"category" : "ASTC-Core-visitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASTCDebugStructureVisitor",
+	"type" : "normal"
+}

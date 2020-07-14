@@ -1,0 +1,3 @@
+visiting
+visitNegationOperator: aNegationOperator
+	self subclassResponsibility

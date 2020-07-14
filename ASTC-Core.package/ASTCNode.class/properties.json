@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pharoNode",
+		"comment",
+		"parent"
+	],
+	"name" : "ASTCNode",
+	"type" : "normal"
+}

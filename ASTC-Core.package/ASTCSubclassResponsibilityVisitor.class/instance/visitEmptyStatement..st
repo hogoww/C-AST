@@ -1,0 +1,3 @@
+visiting
+visitEmptyStatement: anEmptyStatement
+	self subclassResponsibility

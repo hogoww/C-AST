@@ -1,0 +1,3 @@
+visiting
+visitPreIncrementOperator: aPreIncrementOperator
+	

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCUnaryOperator",
+	"category" : "ASTC-Core-Nodes-Operators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASTCPreDecrementOperator",
+	"type" : "normal"
+}

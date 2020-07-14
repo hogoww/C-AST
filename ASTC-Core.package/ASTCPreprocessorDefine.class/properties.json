@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCNode",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"value"
+	],
+	"name" : "ASTCPreprocessorDefine",
+	"type" : "normal"
+}

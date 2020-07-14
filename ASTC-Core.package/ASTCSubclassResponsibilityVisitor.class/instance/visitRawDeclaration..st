@@ -1,0 +1,3 @@
+visiting
+visitRawDeclaration: aRawDeclaration
+	self subclassResponsibility

@@ -1,0 +1,3 @@
+*ASTC-Builder
+isRelationSide
+	^ false

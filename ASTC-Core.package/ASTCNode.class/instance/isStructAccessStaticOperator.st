@@ -1,0 +1,3 @@
+testing
+isStructAccessStaticOperator
+	^ false

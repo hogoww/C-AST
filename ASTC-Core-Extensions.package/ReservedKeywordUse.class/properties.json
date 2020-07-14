@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Error",
+	"category" : "ASTC-Core-Extensions-Errors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"keyword"
+	],
+	"name" : "ReservedKeywordUse",
+	"type" : "normal"
+}

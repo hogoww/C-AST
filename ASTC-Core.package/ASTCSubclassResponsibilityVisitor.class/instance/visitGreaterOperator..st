@@ -1,0 +1,3 @@
+visiting
+visitGreaterOperator: aGreaterOperator
+	self subclassResponsibility

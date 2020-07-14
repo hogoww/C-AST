@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCExpression",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASTCOperator",
+	"type" : "normal"
+}

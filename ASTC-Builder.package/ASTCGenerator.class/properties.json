@@ -1,0 +1,28 @@
+{
+	"classtraitcomposition" : "PackageManagementTrait classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"packageName",
+		"prefix",
+		"builder",
+		"parentPropertyName",
+		"abstractVisitorClass",
+		"collectionsType",
+		"walkerVisitorClass",
+		"hierarchyWalkerVisitorClass",
+		"printerVisitorClass",
+		"debugStructureVisitorClass",
+		"structureValidatorVisitorClass",
+		"superclassVisitorClass",
+		"debug",
+		"subclassResponsibilityVisitorClass"
+	],
+	"name" : "ASTCGenerator",
+	"commentStamp" : "",
+	"super" : "Object",
+	"traitcomposition" : "PackageManagementTrait",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ASTC-Builder"
+}

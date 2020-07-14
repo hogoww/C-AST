@@ -1,0 +1,3 @@
+visiting
+visitTernaryConditionalOperator: aTernaryConditionalOperator
+	^ self visitOperator: aTernaryConditionalOperator

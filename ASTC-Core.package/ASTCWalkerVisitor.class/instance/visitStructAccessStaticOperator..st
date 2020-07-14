@@ -1,0 +1,3 @@
+visiting
+visitStructAccessStaticOperator: aStructAccessStaticOperator
+	^ self visitBinaryOperator: aStructAccessStaticOperator

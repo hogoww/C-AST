@@ -1,0 +1,3 @@
+testing
+isGreaterOperator
+	^ false

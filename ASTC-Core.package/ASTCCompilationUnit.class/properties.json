@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCNode",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"includes",
+		"preamble",
+		"defines",
+		"structTypes",
+		"definitions",
+		"variableDeclarations"
+	],
+	"name" : "ASTCCompilationUnit",
+	"type" : "normal"
+}

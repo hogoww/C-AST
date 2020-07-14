@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCOperator",
+	"category" : "ASTC-Core-Nodes-Operators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"condition",
+		"then",
+		"else"
+	],
+	"name" : "ASTCTernaryConditionalOperator",
+	"type" : "normal"
+}

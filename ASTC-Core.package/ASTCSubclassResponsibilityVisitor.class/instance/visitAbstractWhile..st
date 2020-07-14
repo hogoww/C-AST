@@ -1,0 +1,3 @@
+visiting
+visitAbstractWhile: anAbstractWhile
+	self subclassResponsibility

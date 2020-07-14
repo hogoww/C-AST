@@ -1,0 +1,3 @@
+visiting
+visitAssignmentAdditionOperator: anAssignmentAdditionOperator
+	self subclassResponsibility

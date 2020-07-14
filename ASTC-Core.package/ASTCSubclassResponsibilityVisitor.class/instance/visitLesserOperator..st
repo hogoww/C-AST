@@ -1,0 +1,3 @@
+visiting
+visitLesserOperator: aLesserOperator
+	self subclassResponsibility

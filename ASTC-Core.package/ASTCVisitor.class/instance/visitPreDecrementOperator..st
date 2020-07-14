@@ -1,0 +1,3 @@
+visiting
+visitPreDecrementOperator: aPreDecrementOperator
+	

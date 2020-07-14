@@ -1,0 +1,3 @@
+*ASTC-Builder
+isTypedProperty
+	^ false

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCAbstractWhile",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ASTCWhile",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCExpression",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"condition",
+		"then",
+		"else"
+	],
+	"name" : "ASTCPreprocessorIf",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+visiting
+visitMultiplicationOperator: aMultiplicationOperator
+	^ self visitBinaryOperator: aMultiplicationOperator

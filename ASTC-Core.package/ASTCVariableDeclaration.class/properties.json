@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCDeclaration",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type"
+	],
+	"name" : "ASTCVariableDeclaration",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCStatement",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"condition",
+		"body"
+	],
+	"name" : "ASTCLoop",
+	"type" : "normal"
+}

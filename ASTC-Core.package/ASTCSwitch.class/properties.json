@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCStatement",
+	"category" : "ASTC-Core-Nodes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"expression",
+		"cases",
+		"default"
+	],
+	"name" : "ASTCSwitch",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "ASTCDebugStructureVisitor",
+	"category" : "ASTC-Core-visitors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"errors"
+	],
+	"name" : "ASTCStructureValidatorVisitor",
+	"type" : "normal"
+}

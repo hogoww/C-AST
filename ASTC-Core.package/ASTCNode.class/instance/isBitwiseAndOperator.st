@@ -1,0 +1,3 @@
+testing
+isBitwiseAndOperator
+	^ false

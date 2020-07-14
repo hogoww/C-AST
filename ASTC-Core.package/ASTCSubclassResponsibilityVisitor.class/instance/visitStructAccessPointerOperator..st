@@ -1,0 +1,3 @@
+visiting
+visitStructAccessPointerOperator: aStructAccessPointerOperator
+	self subclassResponsibility
