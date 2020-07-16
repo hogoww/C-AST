@@ -1,3 +1,4 @@
 visiting
 visitPreIncrementOperator: aPreIncrementOperator
-	^ self visitUnaryOperator: aPreIncrementOperator
+	aPreIncrementOperator operand
+		ifNotNil: [ :anOperand | anOperand acceptVisitor: self ]

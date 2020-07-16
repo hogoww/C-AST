@@ -1,3 +1,4 @@
 visiting
 visitNegationOperator: aNegationOperator
-	^ self visitUnaryOperator: aNegationOperator
+	aNegationOperator operand
+		ifNotNil: [ :anOperand | anOperand acceptVisitor: self ]

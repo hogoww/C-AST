@@ -1,3 +1,4 @@
 visiting
 visitBitwiseNotOperator: aBitwiseNotOperator
-	^ self visitUnaryOperator: aBitwiseNotOperator
+	aBitwiseNotOperator operand
+		ifNotNil: [ :anOperand | anOperand acceptVisitor: self ]

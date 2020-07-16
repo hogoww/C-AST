@@ -1,3 +1,6 @@
 visiting
 visitPreprocessorDefine: aPreprocessorDefine
-	^ self visitNode: aPreprocessorDefine
+	aPreprocessorDefine name
+		ifNotNil: [ :aName | aName acceptVisitor: self ].
+	aPreprocessorDefine value
+		ifNotNil: [ :aValue | aValue acceptVisitor: self ]

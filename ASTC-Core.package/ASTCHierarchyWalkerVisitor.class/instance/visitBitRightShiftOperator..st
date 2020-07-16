@@ -1,0 +1,3 @@
+visiting
+visitBitRightShiftOperator: aBitRightShiftOperator
+	^ self visitBinaryOperator: aBitRightShiftOperator

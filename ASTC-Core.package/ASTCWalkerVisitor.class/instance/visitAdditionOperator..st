@@ -1,3 +1,6 @@
 visiting
 visitAdditionOperator: anAdditionOperator
-	^ self visitBinaryOperator: anAdditionOperator
+	anAdditionOperator leftOperand
+		ifNotNil: [ :aLeftOperand | aLeftOperand acceptVisitor: self ].
+	anAdditionOperator rightOperand
+		ifNotNil: [ :aRightOperand | aRightOperand acceptVisitor: self ]

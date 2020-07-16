@@ -1,3 +1,7 @@
 visiting
 visitStructureDefinition: aStructureDefinition
-	^ self visitDefinition: aStructureDefinition
+	aStructureDefinition members
+		ifNotNil:
+			[ :members | members do: [ :aMembers | aMembers acceptVisitor: self ] ].
+	aStructureDefinition declaration
+		ifNotNil: [ :aDeclaration | aDeclaration acceptVisitor: self ]

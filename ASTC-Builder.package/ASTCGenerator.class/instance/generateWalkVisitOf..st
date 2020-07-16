@@ -10,16 +10,20 @@ generateWalkVisitOf: aFMXClass
 	
 	collections := OrderedCollection new.
 	singleElements := OrderedCollection new.
-	aFMXClass allRelations do:[:aRelation| aRelation side otherSide isContainer 
-		ifTrue:[ aRelation side isMany 
+	aFMXClass allRelations do:[:aRelation| 
+		aRelation side otherSide isContainer 
+		ifTrue:[ aRelation side isMany
 			ifTrue:[ collections add: aRelation side name ] 
 			ifFalse: [ singleElements add: aRelation side name ]]].
 	
+	singleElements := singleElements reject:[ :aName | aName = #parent ]."we don't want to walk on parents !"
+
 	collections do:[:propertyName|
-		body add: [:anInstance| anInstance propertyName
-			ifNotNil:[:aCollection| aCollection 
-				do:[:aMember| aMember acceptVisitor: self ]]]
-		withArguments: {#aCollection -> propertyName . #aMember -> propertyName asAnInstance } asDictionary ].
+		body add: [:anInstance| 
+			anInstance propertyName
+				ifNotNil:[:aCollection| aCollection 
+					do:[:aMember| aMember acceptVisitor: self ]]]
+			withArguments: {#aCollection -> propertyName . #aMember -> propertyName asAnInstance } asDictionary ].
 	
 	singleElements do:[:propertyName|
 		body add: [:anInstance| anInstance propertyName 

@@ -1,3 +1,5 @@
 visiting
 visitCastOperator: aCastOperator
-	^ self visitUnaryOperator: aCastOperator
+	aCastOperator operand
+		ifNotNil: [ :anOperand | anOperand acceptVisitor: self ].
+	aCastOperator type ifNotNil: [ :aType | aType acceptVisitor: self ]

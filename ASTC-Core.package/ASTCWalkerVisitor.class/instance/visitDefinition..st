@@ -1,3 +1,4 @@
 visiting
 visitDefinition: aDefinition
-	^ self visitNode: aDefinition
+	aDefinition declaration
+		ifNotNil: [ :aDeclaration | aDeclaration acceptVisitor: self ]

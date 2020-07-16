@@ -1,3 +1,4 @@
 visiting
 visitRawDeclaration: aRawDeclaration
-	^ self visitDeclarationStatement: aRawDeclaration
+	aRawDeclaration declaration
+		ifNotNil: [ :aDeclaration | aDeclaration acceptVisitor: self ]

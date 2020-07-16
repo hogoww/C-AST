@@ -1,3 +1,4 @@
 visiting
 visitExpressionStatement: anExpressionStatement
-	^ self visitStatement: anExpressionStatement
+	anExpressionStatement expression
+		ifNotNil: [ :anExpression | anExpression acceptVisitor: self ]

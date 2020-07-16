@@ -1,3 +1,5 @@
 visiting
 visitExpressionList: anExpressionList
-	^ self visitExpression: anExpressionList
+	anExpressionList expressions
+		ifNotNil:
+			[ :expressions | expressions do: [ :anExpressions | anExpressions acceptVisitor: self ] ]

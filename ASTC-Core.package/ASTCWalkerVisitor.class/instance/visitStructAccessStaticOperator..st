@@ -1,3 +1,6 @@
 visiting
 visitStructAccessStaticOperator: aStructAccessStaticOperator
-	^ self visitBinaryOperator: aStructAccessStaticOperator
+	aStructAccessStaticOperator leftOperand
+		ifNotNil: [ :aLeftOperand | aLeftOperand acceptVisitor: self ].
+	aStructAccessStaticOperator rightOperand
+		ifNotNil: [ :aRightOperand | aRightOperand acceptVisitor: self ]

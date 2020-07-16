@@ -1,3 +1,4 @@
 visiting
 visitStructureDeclaration: aStructureDeclaration
-	^ self visitDeclaration: aStructureDeclaration
+	aStructureDeclaration id
+		ifNotNil: [ :anId | anId acceptVisitor: self ]

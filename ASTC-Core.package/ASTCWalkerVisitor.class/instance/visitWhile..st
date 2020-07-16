@@ -1,3 +1,5 @@
 visiting
 visitWhile: aWhile
-	^ self visitAbstractWhile: aWhile
+	aWhile condition
+		ifNotNil: [ :aCondition | aCondition acceptVisitor: self ].
+	aWhile body ifNotNil: [ :aBody | aBody acceptVisitor: self ]

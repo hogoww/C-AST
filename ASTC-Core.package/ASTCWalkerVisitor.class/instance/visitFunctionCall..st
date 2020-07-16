@@ -1,3 +1,6 @@
 visiting
 visitFunctionCall: aFunctionCall
-	^ self visitExpression: aFunctionCall
+	aFunctionCall arguments
+		ifNotNil:
+			[ :arguments | arguments do: [ :anArguments | anArguments acceptVisitor: self ] ].
+	aFunctionCall id ifNotNil: [ :anId | anId acceptVisitor: self ]

@@ -1,3 +1,3 @@
 visiting
 visitDeclaration: aDeclaration
-	^ self visitNode: aDeclaration
+	aDeclaration id ifNotNil: [ :anId | anId acceptVisitor: self ]

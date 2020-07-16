@@ -1,3 +1,4 @@
 visiting
 visitPreDecrementOperator: aPreDecrementOperator
-	^ self visitUnaryOperator: aPreDecrementOperator
+	aPreDecrementOperator operand
+		ifNotNil: [ :anOperand | anOperand acceptVisitor: self ]

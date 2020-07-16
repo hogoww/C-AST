@@ -1,3 +1,6 @@
 visiting
 visitBitwiseOrOperator: aBitwiseOrOperator
-	^ self visitBinaryOperator: aBitwiseOrOperator
+	aBitwiseOrOperator leftOperand
+		ifNotNil: [ :aLeftOperand | aLeftOperand acceptVisitor: self ].
+	aBitwiseOrOperator rightOperand
+		ifNotNil: [ :aRightOperand | aRightOperand acceptVisitor: self ]

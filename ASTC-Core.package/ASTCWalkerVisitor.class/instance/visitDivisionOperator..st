@@ -1,3 +1,6 @@
 visiting
 visitDivisionOperator: aDivisionOperator
-	^ self visitBinaryOperator: aDivisionOperator
+	aDivisionOperator leftOperand
+		ifNotNil: [ :aLeftOperand | aLeftOperand acceptVisitor: self ].
+	aDivisionOperator rightOperand
+		ifNotNil: [ :aRightOperand | aRightOperand acceptVisitor: self ]

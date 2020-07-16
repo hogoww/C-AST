@@ -4,7 +4,7 @@ generateHierarchyWalkVisitOf: aFMXClass
 	aClass := aFMXClass name asAnInstance.
 
 	visitClass :=  aFMXClass name asVisitClassSelector.
-	body := self visitSuperClassBody: aFMXClass.
+	body := [ : anInstance | ] asPlainCodeBC.
 	
 	collections := OrderedCollection new.
 	singleElements := OrderedCollection new.
@@ -12,6 +12,8 @@ generateHierarchyWalkVisitOf: aFMXClass
 		ifTrue:[ aRelation side isMany 
 			ifTrue:[ collections add: aRelation side name ] 
 			ifFalse: [ singleElements add: aRelation side name ]]].
+
+	singleElements := singleElements reject:[ :aName | aName = #parent ]."we don't want to walk on parents !"
 	
 	collections do:[:propertyName|
 		body add: [:anInstance| anInstance propertyName
@@ -23,10 +25,11 @@ generateHierarchyWalkVisitOf: aFMXClass
 		body add: [:anInstance| anInstance propertyName 
 					ifNotNil:[:aPropertyName| aPropertyName acceptVisitor: self ] ] 
 			withArguments: {#aPropertyName -> propertyName asAnInstance } asDictionary ].
-		
-								
+						
+	body add: (self visitSuperClassBody: aFMXClass).
+			
 	method := visitClass
 		asMethodWithBody: body
 		withArguments: {(#anInstance -> aClass )} asDictionary.
-
+	
 	hierarchyWalkerVisitorClass compile: method asString classified: 'visiting'

@@ -1,3 +1,6 @@
 visiting
 visitProject: aProject
-	^ self visitNode: aProject
+	aProject compilationUnits
+		ifNotNil: [ :compilationUnits | 
+			compilationUnits
+				do: [ :aCompilationUnits | aCompilationUnits acceptVisitor: self ] ]
