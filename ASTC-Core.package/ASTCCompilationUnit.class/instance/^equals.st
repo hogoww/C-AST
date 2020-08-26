@@ -10,6 +10,8 @@ testing
 		ifFalse: [ ^ false ].
 	structTypes = aCompilationUnit structTypes
 		ifFalse: [ ^ false ].
+	functionDeclarations = aCompilationUnit functionDeclarations
+		ifFalse: [ ^ false ].
 	definitions = aCompilationUnit definitions
 		ifFalse: [ ^ false ].
 	variableDeclarations = aCompilationUnit variableDeclarations

@@ -9,6 +9,10 @@ visitCompilationUnit: aCompilationUnit
 	aCompilationUnit structTypes
 		ifNotNil:
 			[ :structTypes | structTypes do: [ :aStructTypes | aStructTypes acceptVisitor: self ] ].
+	aCompilationUnit functionDeclarations
+		ifNotNil: [ :functionDeclarations | 
+			functionDeclarations
+				do: [ :aFunctionDeclarations | aFunctionDeclarations acceptVisitor: self ] ].
 	aCompilationUnit definitions
 		ifNotNil:
 			[ :definitions | definitions do: [ :aDefinitions | aDefinitions acceptVisitor: self ] ].

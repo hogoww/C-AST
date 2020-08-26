@@ -12,6 +12,10 @@ visitCompilationUnit: aCompilationUnit
 		ifNotNil: [ :structTypes | 
 			structTypes
 				do: [ :aStructTypes | self assert: aStructTypes isStructureDefinition ] ].
+	aCompilationUnit functionDeclarations
+		ifNotNil: [ :functionDeclarations | 
+			functionDeclarations
+				do: [ :aFunctionDeclarations | self assert: aFunctionDeclarations isFunctionDeclaration ] ].
 	aCompilationUnit definitions
 		ifNotNil: [ :definitions | 
 			definitions

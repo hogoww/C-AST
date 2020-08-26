@@ -16,6 +16,7 @@ defineRelations
 	(compilationUnit property: #preamble) <>- (rawCCode property: #compilationUnit). "Slang uses it, so we have it."
 	(compilationUnit property: #defines) <>-* (preprocessorDefine property: #compilationUnit).
 	(compilationUnit property: #structTypes) <>-* (structureDefinition property: #compilationUnit).
+	(compilationUnit property: #functionDeclarations) <>-* (functionDeclaration property: #compilationUnit).
 	(compilationUnit property: #definitions) <>-* (definition property: #compilationUnit).
 	(compilationUnit property: #variableDeclarations) <>-* (variableDeclaration property: #compilationUnit).
 	
