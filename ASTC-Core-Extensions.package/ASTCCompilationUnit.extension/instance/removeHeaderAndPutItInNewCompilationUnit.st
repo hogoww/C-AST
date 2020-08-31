@@ -19,5 +19,5 @@ removeHeaderAndPutItInNewCompilationUnit
 	"maybe worth distinguishing static vs non static functions, if we end up having some"
 	headerCu functionDeclarations: (definitions collect: [ :aDefinition | aDefinition declaration ]).
 	functionDeclarations := OrderedCollection new.
-	
+
 	^ headerCu
