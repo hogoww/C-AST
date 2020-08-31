@@ -2,8 +2,8 @@
 gtInspectorCPrettyPrint: composite 
 	<gtInspectorPresentationOrder: 2>
 	^ composite pharoMethod
-		title: [ 'AST C pretty print' translated ];
+		title: [ 'AST C default pretty print ' translated ];
 			display: [ 
-				self prettyPrint.
+				self prettyPrintUsing: FAPrettyPrint new.
 				]
 			

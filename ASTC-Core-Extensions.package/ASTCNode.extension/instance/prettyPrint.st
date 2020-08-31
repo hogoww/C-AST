@@ -1,3 +1,3 @@
 *ASTC-Core-Extensions
 prettyPrint
-	^ self prettyPrintUsing: MASlangPrettyPrinter new
+	^ self prettyPrintUsing: FAPrettyPrint new
