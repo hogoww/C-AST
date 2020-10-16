@@ -1,3 +1,3 @@
-accessing
+initialization
 initialize
 	parameters := OrderedCollection new

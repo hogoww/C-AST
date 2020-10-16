@@ -10,4 +10,4 @@ addInitializeTo: aFMXClass
 	
 	method := 'initialize' asMethodWithBody: [ collectionsToInitialize := collectionsType new ].
 	
-	aFMXClass realClass compile: method asString classified: 'accessing'
+	aFMXClass realClass compile: method asString classified: 'initialization'

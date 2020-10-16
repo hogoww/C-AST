@@ -1,4 +1,4 @@
-accessing
+initialization
 initialize
 	includes := OrderedCollection new.
 	defines := OrderedCollection new.
