@@ -2,12 +2,12 @@ tests
 testAdd
 	| block |
 	block := ASTCBlock new.
-	block addStatement: ASTCEmptyStatement new.
-	
+	block add: ASTCEmptyStatement new.
 	self assert: block statements size equals: 0.
 	
-	block addStatement: ASTCStatement new.
+	block add: ASTCStatement new.
 	self assert: block statements size equals: 1.
 	
-	block addStatement: (ASTCBlock new addStatement: (ASTCRawDeclaration new rawDeclaration: 'int a';yourself)).
+	block add: (ASTCBlock new addStatement: 
+		(ASTCRawDeclaration new rawDeclaration: 'int a'; yourself) ; yourself).
 	self assert: block statements size equals: 2.
