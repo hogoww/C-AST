@@ -10,8 +10,10 @@ defineRelations
 	self flag:#hack. "generates only one parent, because the property have the same names, and one the <> side is the right part of the property, that we 'ignore'. May cause trouble."
 	(node property: #parent) <>- (node property: #parent).
 
-	"General nodes"
+	"Management nodes"
 	(project property: #compilationUnits) <>-* (compilationUnit property: #project).
+
+	"General nodes"
 	(compilationUnit property: #includes) <>-* (preprocessorInclude property: #compilationUnit).
 	(compilationUnit property: #preamble) <>- (rawCCode property: #compilationUnit). "Slang uses it, so we have it."
 	(compilationUnit property: #defines) <>-* (preprocessorDefine property: #compilationUnit).

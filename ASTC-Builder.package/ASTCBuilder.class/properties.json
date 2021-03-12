@@ -73,7 +73,8 @@
 		"bitwiseNotOperator",
 		"preprocessorDefine",
 		"assignmentAdditionOperator",
-		"preprocessorInclude"
+		"preprocessorInclude",
+		"makefile"
 	],
 	"name" : "ASTCBuilder",
 	"commentStamp" : "",
