@@ -11,6 +11,6 @@
 		"header",
 		"implementation"
 	],
-	"name" : "ASTCcFile",
+	"name" : "ASTCCFile",
 	"type" : "normal"
 }
