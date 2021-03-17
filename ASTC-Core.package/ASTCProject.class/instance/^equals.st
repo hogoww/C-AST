@@ -2,6 +2,6 @@ testing
 = aProject
 	super = aProject
 		ifFalse: [ ^ false ].
-	compilationUnits = aProject compilationUnits
+	cFiles = aProject cFiles
 		ifFalse: [ ^ false ].
 	^ true

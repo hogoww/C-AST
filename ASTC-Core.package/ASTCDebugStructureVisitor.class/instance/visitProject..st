@@ -1,7 +1,6 @@
 visiting
 visitProject: aProject
 	super visitProject: aProject.
-	aProject compilationUnits
-		ifNotNil: [ :compilationUnits | 
-			compilationUnits
-				do: [ :aCompilationUnits | self assert: aCompilationUnits isCompilationUnit ] ]
+	aProject cFiles
+		ifNotNil:
+			[ :cFiles | cFiles do: [ :aCFiles | self assert: aCFiles iscFile ] ]

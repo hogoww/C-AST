@@ -168,6 +168,8 @@ add: aNode
 		ifTrue: [ ^ self ].
 	(aNode isCompilationUnit and: [ self addCompilationUnit: aNode ])
 		ifTrue: [ ^ self ].
+	(aNode isCFile and: [ self addCFile: aNode ])
+		ifTrue: [ ^ self ].
 	(aNode isProject and: [ self addProject: aNode ])
 		ifTrue: [ ^ self ].
 	(aNode isNode and: [ self addNode: aNode ])

@@ -1,3 +1,3 @@
 initialization
 initialize
-	compilationUnits := OrderedCollection new
+	cFiles := OrderedCollection new

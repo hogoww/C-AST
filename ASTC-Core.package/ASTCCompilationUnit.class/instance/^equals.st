@@ -2,10 +2,6 @@ testing
 = aCompilationUnit
 	super = aCompilationUnit
 		ifFalse: [ ^ false ].
-	fileName = aCompilationUnit fileName
-		ifFalse: [ ^ false ].
-	isHeader = aCompilationUnit isHeader
-		ifFalse: [ ^ false ].
 	includes = aCompilationUnit includes
 		ifFalse: [ ^ false ].
 	preamble = aCompilationUnit preamble

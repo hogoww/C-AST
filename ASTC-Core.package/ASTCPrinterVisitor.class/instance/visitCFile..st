@@ -1,12 +1,14 @@
 visiting
-visitCompilationUnit: aCompilationUnit
+visitCFile: aCFile
 	stream cr.
 	self printTabCount: currentDepth.
 	stream
 		<< $(;
-		<< 'aCompilationUnit';
+		<< 'aCFile';
 		space.
+	stream print: aCFile fileName.
+	stream print: aCFile isHeader.
 	currentDepth := currentDepth + 1.
-	super visitCompilationUnit: aCompilationUnit.
+	super visitCFile: aCFile.
 	currentDepth := currentDepth - 1.
 	stream << ')'

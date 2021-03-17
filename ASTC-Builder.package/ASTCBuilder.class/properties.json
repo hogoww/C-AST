@@ -75,7 +75,8 @@
 		"assignmentAdditionOperator",
 		"preprocessorInclude",
 		"makefile",
-		"arrayLiteral"
+		"arrayLiteral",
+		"cFile"
 	],
 	"name" : "ASTCBuilder",
 	"commentStamp" : "",

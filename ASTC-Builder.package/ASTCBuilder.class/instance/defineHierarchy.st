@@ -5,6 +5,7 @@ defineHierarchy
 
 	project --|> node.
 	compilationUnit --|> node.
+	cFile --|> node.
 	
 	"preprocessor"
 	preprocessorIf --|> expression "not sure about this..".

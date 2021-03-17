@@ -8,6 +8,7 @@ defineClasses
 
 		"Node Subclasses"
 		project := builder newClassNamed: #Project.
+		cFile := builder newClassNamed: #cFile.
 		compilationUnit := builder newClassNamed: #CompilationUnit.
 		definition := builder newClassNamed: #Definition.
 		declaration := builder newClassNamed: #Declaration.

@@ -5,8 +5,8 @@ defineProperties
 	"define the properties of the classes following the FmxNG syntax."
 	"Having some kind of type check on those would be nice, generated in the debug visitor."
 	
-	compilationUnit property: #fileName type: #String.
-	compilationUnit property: #isHeader type: #Boolean.
+	cFile property: #fileName type: #String.
+	cFile property: #isHeader type: #Boolean.
 	
 	node property: #pharoNode type: #RBNode.
 	node property: #comment type: #String.

@@ -1,6 +1,5 @@
 visiting
 visitProject: aProject
-	aProject compilationUnits
-		ifNotNil: [ :compilationUnits | 
-			compilationUnits
-				do: [ :aCompilationUnits | aCompilationUnits acceptVisitor: self ] ]
+	aProject cFiles
+		ifNotNil:
+			[ :cFiles | cFiles do: [ :aCFiles | aCFiles acceptVisitor: self ] ]

@@ -11,8 +11,10 @@ defineRelations
 	(node property: #parent) <>- (node property: #parent).
 
 	"Management nodes"
-	(project property: #compilationUnits) <>-* (compilationUnit property: #project).
-
+	(project property: #cFiles) <>-* (cFile property: #project).
+	(cFile property: #header) <>- (compilationUnit property: #headerFile).
+	(cFile property: #implementation) <>- (compilationUnit property: #implementationFile).
+	
 	"General nodes"
 	(compilationUnit property: #includes) <>-* (preprocessorInclude property: #compilationUnit).
 	(compilationUnit property: #preamble) <>- (rawCCode property: #compilationUnit). "Slang uses it, so we have it."

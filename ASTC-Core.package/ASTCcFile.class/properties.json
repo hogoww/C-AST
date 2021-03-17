@@ -6,8 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cFiles"
+		"fileName",
+		"isHeader",
+		"header",
+		"implementation"
 	],
-	"name" : "ASTCProject",
+	"name" : "ASTCcFile",
 	"type" : "normal"
 }
