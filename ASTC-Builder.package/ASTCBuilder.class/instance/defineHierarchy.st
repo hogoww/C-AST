@@ -32,6 +32,7 @@ defineHierarchy
 		
 			"Expression direct Subclasses"
 			literal --|> expression.
+			arrayLiteral --|> expression.
 			functionCall  --|> expression.
 			operator --|> expression.
 			self defineOperatorsHierarchy.

@@ -45,6 +45,7 @@ defineRelations
 	(structureDefinition property: #members) <>-* (variableDeclaration property: #structureMembers).
 	
 	"expressions"
+	(arrayLiteral property: #literals) <>-* (literal property: #arrayLiteral).
 	(expressionList property: #expressions) <>-* (expression property: #expressionListPart).
 	
 	"statement"

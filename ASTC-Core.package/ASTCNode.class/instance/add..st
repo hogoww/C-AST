@@ -134,6 +134,8 @@ add: aNode
 		ifTrue: [ ^ self ].
 	(aNode isFunctionCall and: [ self addFunctionCall: aNode ])
 		ifTrue: [ ^ self ].
+	(aNode isArrayLiteral and: [ self addArrayLiteral: aNode ])
+		ifTrue: [ ^ self ].
 	(aNode isLiteral and: [ self addLiteral: aNode ])
 		ifTrue: [ ^ self ].
 	(aNode isStructureDefinition

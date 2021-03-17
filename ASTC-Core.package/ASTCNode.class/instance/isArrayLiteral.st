@@ -1,0 +1,3 @@
+testing
+isArrayLiteral
+	^ false

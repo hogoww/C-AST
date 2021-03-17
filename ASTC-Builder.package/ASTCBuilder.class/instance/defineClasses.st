@@ -28,6 +28,7 @@ defineClasses
 			
 		"Expressions"
 		literal := builder newClassNamed: #Literal.
+		arrayLiteral := builder newClassNamed: #ArrayLiteral.
 		functionCall := builder newClassNamed: #FunctionCall.
 		operator := builder newClassNamed: #Operator.
 		self defineOperatorClasses.
