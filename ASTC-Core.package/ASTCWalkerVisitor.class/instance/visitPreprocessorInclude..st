@@ -1,5 +1,4 @@
 visiting
 visitPreprocessorInclude: aPreprocessorInclude
 	aPreprocessorInclude cFiles
-		ifNotNil:
-			[ :cFiles | cFiles do: [ :aCFiles | aCFiles acceptVisitor: self ] ]
+		ifNotNil: [ :aCFiles | aCFiles acceptVisitor: self ]

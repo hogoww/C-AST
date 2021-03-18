@@ -1,3 +1,0 @@
-gathering
-supportFiles
-	header halt

@@ -1,4 +1,4 @@
 accessing
-cFiles: someCFiles
-	someCFiles do: [ :each | each parent: self ].
-	cFiles := someCFiles
+cFiles: aCFiles
+	aCFiles ifNotNil: [ aCFiles parent: self ].
+	cFiles := aCFiles

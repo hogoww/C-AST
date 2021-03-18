@@ -6,7 +6,6 @@ defineProperties
 	"Having some kind of type check on those would be nice, generated in the debug visitor."
 	
 	cFile property: #fileName type: #String.
-	cFile property: #isHeader type: #Boolean.
 	
 	node property: #pharoNode type: #RBNode.
 	node property: #comment type: #String.
