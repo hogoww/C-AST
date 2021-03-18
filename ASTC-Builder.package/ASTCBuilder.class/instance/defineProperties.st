@@ -23,6 +23,4 @@ defineProperties
 	rawDeclaration property: #varName type: #String.
 
 	type property: #type type: #TypeConstraint.
-
-	preprocessorInclude property: #name type: #String.
 	

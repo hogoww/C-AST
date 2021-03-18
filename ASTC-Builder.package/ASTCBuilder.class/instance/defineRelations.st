@@ -25,6 +25,8 @@ defineRelations
 	(compilationUnit property: #variableDeclarations) <>-* (variableDeclaration property: #compilationUnit).
 	
 	"preprocessor"
+	(preprocessorInclude property: #cFiles) <>-* (cFile property: #includes).
+	
 	(preprocessorIf property: #condition) <>- (expression property: #preProssorIfCond).
 	(preprocessorIf property: #then) <>-* (node property: #preProssorIfThen).
 	(preprocessorIf property: #else) <>-* (node property: #preProssorIfElse).

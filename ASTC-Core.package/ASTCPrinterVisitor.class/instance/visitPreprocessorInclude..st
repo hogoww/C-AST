@@ -6,7 +6,6 @@ visitPreprocessorInclude: aPreprocessorInclude
 		<< $(;
 		<< 'aPreprocessorInclude';
 		space.
-	stream print: aPreprocessorInclude name.
 	currentDepth := currentDepth + 1.
 	super visitPreprocessorInclude: aPreprocessorInclude.
 	currentDepth := currentDepth - 1.

@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"cFiles"
 	],
 	"name" : "ASTCPreprocessorInclude",
 	"type" : "normal"
