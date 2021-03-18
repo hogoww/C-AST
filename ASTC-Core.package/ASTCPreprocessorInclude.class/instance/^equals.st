@@ -2,6 +2,6 @@ testing
 = aPreprocessorInclude
 	super = aPreprocessorInclude
 		ifFalse: [ ^ false ].
-	cFiles = aPreprocessorInclude cFiles
+	cFile = aPreprocessorInclude cFile
 		ifFalse: [ ^ false ].
 	^ true
