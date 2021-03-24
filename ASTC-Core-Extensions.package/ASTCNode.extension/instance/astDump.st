@@ -3,4 +3,4 @@ astDump
 	| visitor |
 	visitor:=ASTCPrinterVisitor new.
 	self acceptVisitor: visitor.
-	^visitor.
+	^ visitor
