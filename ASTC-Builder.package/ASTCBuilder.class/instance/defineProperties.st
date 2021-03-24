@@ -6,6 +6,10 @@ defineProperties
 	"Having some kind of type check on those would be nice, generated in the debug visitor."
 	
 	cFile property: #fileName type: #String.
+	cFile property: #isLibrary type: #Boolean.
+	cFile property: #isStandard type: #Boolean.
+	
+	project property: #path type: #String.
 	
 	node property: #pharoNode type: #RBNode.
 	node property: #comment type: #String.

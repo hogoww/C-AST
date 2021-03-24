@@ -6,6 +6,7 @@ visitProject: aProject
 		<< $(;
 		<< 'aProject';
 		space.
+	stream print: aProject path.
 	currentDepth := currentDepth + 1.
 	super visitProject: aProject.
 	currentDepth := currentDepth - 1.

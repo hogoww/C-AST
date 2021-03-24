@@ -7,6 +7,8 @@ visitCFile: aCFile
 		<< 'aCFile';
 		space.
 	stream print: aCFile fileName.
+	stream print: aCFile isLibrary.
+	stream print: aCFile isStandard.
 	currentDepth := currentDepth + 1.
 	super visitCFile: aCFile.
 	currentDepth := currentDepth - 1.
