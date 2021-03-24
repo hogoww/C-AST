@@ -3,5 +3,5 @@ inspectingPrettyprint: aBuilder
 	<inspectorPresentationOrder: 1 title: 'Pretty print'> 
 
 	^ aBuilder newText
-		text: 	(self prettyPrintUsing: FAPrettyPrint new) stream contents;
+		text: 	(self prettyPrintUsing: FAPrettyPrint new) contents;
 		yourself
