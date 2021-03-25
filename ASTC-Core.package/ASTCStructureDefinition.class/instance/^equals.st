@@ -1,4 +1,4 @@
-testing
+comparing
 = aStructureDefinition
 	super = aStructureDefinition
 		ifFalse: [ ^ false ].

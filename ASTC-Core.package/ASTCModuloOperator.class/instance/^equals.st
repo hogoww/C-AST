@@ -1,4 +1,4 @@
-testing
+comparing
 = aModuloOperator
 	super = aModuloOperator
 		ifFalse: [ ^ false ].

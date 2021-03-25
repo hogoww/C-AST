@@ -1,4 +1,4 @@
-testing
+comparing
 = aType
 	super = aType
 		ifFalse: [ ^ false ].

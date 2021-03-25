@@ -1,4 +1,4 @@
-testing
+comparing
 = anExpressionStatement
 	super = anExpressionStatement
 		ifFalse: [ ^ false ].

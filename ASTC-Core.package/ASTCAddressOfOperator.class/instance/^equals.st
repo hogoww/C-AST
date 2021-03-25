@@ -1,4 +1,4 @@
-testing
+comparing
 = anAddressOfOperator
 	super = anAddressOfOperator
 		ifFalse: [ ^ false ].

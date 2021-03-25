@@ -1,4 +1,4 @@
-testing
+comparing
 = anUnaryOperator
 	super = anUnaryOperator
 		ifFalse: [ ^ false ].

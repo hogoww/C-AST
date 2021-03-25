@@ -1,4 +1,4 @@
-testing
+comparing
 = aBitRightShiftOperator
 	super = aBitRightShiftOperator
 		ifFalse: [ ^ false ].

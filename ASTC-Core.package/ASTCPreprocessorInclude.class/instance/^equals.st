@@ -1,4 +1,4 @@
-testing
+comparing
 = aPreprocessorInclude
 	super = aPreprocessorInclude
 		ifFalse: [ ^ false ].

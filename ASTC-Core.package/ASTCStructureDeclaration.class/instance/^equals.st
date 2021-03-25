@@ -1,4 +1,4 @@
-testing
+comparing
 = aStructureDeclaration
 	super = aStructureDeclaration
 		ifFalse: [ ^ false ].

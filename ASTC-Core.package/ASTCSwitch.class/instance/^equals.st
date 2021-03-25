@@ -1,4 +1,4 @@
-testing
+comparing
 = aSwitch
 	super = aSwitch
 		ifFalse: [ ^ false ].

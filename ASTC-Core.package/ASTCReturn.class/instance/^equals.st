@@ -1,4 +1,4 @@
-testing
+comparing
 = aReturn
 	super = aReturn
 		ifFalse: [ ^ false ].

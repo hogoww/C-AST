@@ -1,4 +1,4 @@
-testing
+comparing
 = anOrOperator
 	super = anOrOperator
 		ifFalse: [ ^ false ].

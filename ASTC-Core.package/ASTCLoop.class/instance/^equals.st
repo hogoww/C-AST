@@ -1,4 +1,4 @@
-testing
+comparing
 = aLoop
 	super = aLoop
 		ifFalse: [ ^ false ].

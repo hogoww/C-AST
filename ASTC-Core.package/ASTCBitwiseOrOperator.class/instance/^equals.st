@@ -1,4 +1,4 @@
-testing
+comparing
 = aBitwiseOrOperator
 	super = aBitwiseOrOperator
 		ifFalse: [ ^ false ].

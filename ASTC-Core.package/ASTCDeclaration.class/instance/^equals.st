@@ -1,4 +1,4 @@
-testing
+comparing
 = aDeclaration
 	super = aDeclaration
 		ifFalse: [ ^ false ].

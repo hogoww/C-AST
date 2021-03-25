@@ -1,4 +1,4 @@
-testing
+comparing
 = aStructAccessPointerOperator
 	super = aStructAccessPointerOperator
 		ifFalse: [ ^ false ].

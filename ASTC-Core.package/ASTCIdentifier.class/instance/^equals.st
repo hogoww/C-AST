@@ -1,4 +1,4 @@
-testing
+comparing
 = anIdentifier
 	super = anIdentifier
 		ifFalse: [ ^ false ].

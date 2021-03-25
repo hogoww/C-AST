@@ -1,4 +1,4 @@
-testing
+comparing
 = aProject
 	super = aProject
 		ifFalse: [ ^ false ].

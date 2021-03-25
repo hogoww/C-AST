@@ -1,4 +1,4 @@
-testing
+comparing
 = aCompilationUnit
 	super = aCompilationUnit
 		ifFalse: [ ^ false ].

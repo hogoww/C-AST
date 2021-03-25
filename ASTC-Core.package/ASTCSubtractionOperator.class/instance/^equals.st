@@ -1,4 +1,4 @@
-testing
+comparing
 = aSubtractionOperator
 	super = aSubtractionOperator
 		ifFalse: [ ^ false ].

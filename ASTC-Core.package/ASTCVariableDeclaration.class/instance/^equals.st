@@ -1,4 +1,4 @@
-testing
+comparing
 = aVariableDeclaration
 	super = aVariableDeclaration
 		ifFalse: [ ^ false ].

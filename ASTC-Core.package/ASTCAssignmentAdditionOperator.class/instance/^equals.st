@@ -1,4 +1,4 @@
-testing
+comparing
 = anAssignmentAdditionOperator
 	super = anAssignmentAdditionOperator
 		ifFalse: [ ^ false ].

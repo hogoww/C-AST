@@ -1,4 +1,4 @@
-testing
+comparing
 = aCastOperator
 	super = aCastOperator
 		ifFalse: [ ^ false ].

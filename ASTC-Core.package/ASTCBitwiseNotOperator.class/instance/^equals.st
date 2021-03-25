@@ -1,4 +1,4 @@
-testing
+comparing
 = aBitwiseNotOperator
 	super = aBitwiseNotOperator
 		ifFalse: [ ^ false ].

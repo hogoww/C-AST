@@ -1,4 +1,4 @@
-testing
+comparing
 = anIf
 	super = anIf
 		ifFalse: [ ^ false ].

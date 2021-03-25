@@ -1,4 +1,4 @@
-testing
+comparing
 = aSwitchCase
 	super = aSwitchCase
 		ifFalse: [ ^ false ].

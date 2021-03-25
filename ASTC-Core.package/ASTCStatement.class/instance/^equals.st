@@ -1,4 +1,4 @@
-testing
+comparing
 = aStatement
 	super = aStatement
 		ifFalse: [ ^ false ].

@@ -1,4 +1,4 @@
-testing
+comparing
 = aBlock
 	super = aBlock
 		ifFalse: [ ^ false ].

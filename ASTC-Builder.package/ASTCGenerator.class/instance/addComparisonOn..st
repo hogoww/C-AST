@@ -13,7 +13,7 @@ addComparisonOn: aFMXClass
 	aFMXClass properties do:[:aProperty|
 		aProperty isTypedProperty ifTrue:[
 			propertyName := aProperty name.
-			(#(#pharoNode) includes: propertyName) ifFalse:[
+			#pharoNode = propertyName ifFalse:[
 				body + [:anInstance| propertyName = anInstance propertyName ifFalse:[ ^ false ]]
 			]]
 		].
@@ -21,7 +21,7 @@ addComparisonOn: aFMXClass
 	aFMXClass relations do:[:aRelation| aRelation side otherSide isContainer 
 		ifTrue:[
 			propertyName := aRelation side name.
-			(#(#parent) includes: propertyName) ifFalse: [ 
+			#parent =propertyName ifFalse: [ 
 			body + [:anInstance| propertyName = anInstance propertyName ifFalse:[ ^ false ]]]
 		]].
 	
@@ -31,4 +31,4 @@ addComparisonOn: aFMXClass
 		asMethodWithBody: body
 		withArguments: {(#anInstance -> aClass )} asDictionary.
 	
-	aFMXClass realClass compile: method asString classified: 'testing'
+	aFMXClass realClass compile: method asString classified: 'comparing'

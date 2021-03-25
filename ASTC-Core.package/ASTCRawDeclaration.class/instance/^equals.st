@@ -1,4 +1,4 @@
-testing
+comparing
 = aRawDeclaration
 	super = aRawDeclaration
 		ifFalse: [ ^ false ].

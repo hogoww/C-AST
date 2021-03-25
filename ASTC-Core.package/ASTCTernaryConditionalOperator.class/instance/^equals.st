@@ -1,4 +1,4 @@
-testing
+comparing
 = aTernaryConditionalOperator
 	super = aTernaryConditionalOperator
 		ifFalse: [ ^ false ].

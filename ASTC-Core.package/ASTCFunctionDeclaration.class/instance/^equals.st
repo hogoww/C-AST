@@ -1,4 +1,4 @@
-testing
+comparing
 = aFunctionDeclaration
 	super = aFunctionDeclaration
 		ifFalse: [ ^ false ].

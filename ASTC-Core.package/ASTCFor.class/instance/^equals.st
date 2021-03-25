@@ -1,4 +1,4 @@
-testing
+comparing
 = aFor
 	super = aFor
 		ifFalse: [ ^ false ].

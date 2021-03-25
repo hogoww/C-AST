@@ -1,4 +1,4 @@
-testing
+comparing
 = aDefinition
 	super = aDefinition
 		ifFalse: [ ^ false ].

@@ -1,4 +1,4 @@
-testing
+comparing
 = aLogicalNotOperator
 	super = aLogicalNotOperator
 		ifFalse: [ ^ false ].

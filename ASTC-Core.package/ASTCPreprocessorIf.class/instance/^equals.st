@@ -1,4 +1,4 @@
-testing
+comparing
 = aPreprocessorIf
 	super = aPreprocessorIf
 		ifFalse: [ ^ false ].

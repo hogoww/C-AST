@@ -1,4 +1,4 @@
-testing
+comparing
 = aDoWhile
 	super = aDoWhile
 		ifFalse: [ ^ false ].

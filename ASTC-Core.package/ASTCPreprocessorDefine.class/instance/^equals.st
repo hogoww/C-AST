@@ -1,4 +1,4 @@
-testing
+comparing
 = aPreprocessorDefine
 	super = aPreprocessorDefine
 		ifFalse: [ ^ false ].

@@ -1,4 +1,4 @@
-testing
+comparing
 = anIndexerOperator
 	super = anIndexerOperator
 		ifFalse: [ ^ false ].

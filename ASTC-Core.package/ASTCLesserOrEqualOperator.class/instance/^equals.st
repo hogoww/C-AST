@@ -1,4 +1,4 @@
-testing
+comparing
 = aLesserOrEqualOperator
 	super = aLesserOrEqualOperator
 		ifFalse: [ ^ false ].

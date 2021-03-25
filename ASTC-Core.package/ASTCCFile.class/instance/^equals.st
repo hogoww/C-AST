@@ -1,4 +1,4 @@
-testing
+comparing
 = aCFile
 	super = aCFile
 		ifFalse: [ ^ false ].

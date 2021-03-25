@@ -1,4 +1,4 @@
-testing
+comparing
 = anAbstractWhile
 	super = anAbstractWhile
 		ifFalse: [ ^ false ].

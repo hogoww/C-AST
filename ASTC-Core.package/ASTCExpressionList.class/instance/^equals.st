@@ -1,4 +1,4 @@
-testing
+comparing
 = anExpressionList
 	super = anExpressionList
 		ifFalse: [ ^ false ].

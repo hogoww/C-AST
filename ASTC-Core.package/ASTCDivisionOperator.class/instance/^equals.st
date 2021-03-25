@@ -1,4 +1,4 @@
-testing
+comparing
 = aDivisionOperator
 	super = aDivisionOperator
 		ifFalse: [ ^ false ].

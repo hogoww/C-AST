@@ -1,4 +1,4 @@
-testing
+comparing
 = aLiteral
 	super = aLiteral
 		ifFalse: [ ^ false ].

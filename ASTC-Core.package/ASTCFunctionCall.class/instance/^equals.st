@@ -1,4 +1,4 @@
-testing
+comparing
 = aFunctionCall
 	super = aFunctionCall
 		ifFalse: [ ^ false ].

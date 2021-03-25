@@ -1,4 +1,4 @@
-testing
+comparing
 = anArrayLiteral
 	super = anArrayLiteral
 		ifFalse: [ ^ false ].

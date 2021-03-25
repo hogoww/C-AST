@@ -1,4 +1,4 @@
-testing
+comparing
 = aBinaryOperator
 	super = aBinaryOperator
 		ifFalse: [ ^ false ].

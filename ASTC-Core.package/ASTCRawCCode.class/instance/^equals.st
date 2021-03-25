@@ -1,4 +1,4 @@
-testing
+comparing
 = aRawCCode
 	super = aRawCCode
 		ifFalse: [ ^ false ].

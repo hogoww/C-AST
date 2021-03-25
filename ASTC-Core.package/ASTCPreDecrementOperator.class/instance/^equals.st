@@ -1,4 +1,4 @@
-testing
+comparing
 = aPreDecrementOperator
 	super = aPreDecrementOperator
 		ifFalse: [ ^ false ].
