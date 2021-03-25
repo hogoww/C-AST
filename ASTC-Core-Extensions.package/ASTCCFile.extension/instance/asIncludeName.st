@@ -1,3 +1,6 @@
 *ASTC-Core-Extensions
 asIncludeName
-	^ String streamContents: [ :s | s << '"' << fileName << '.h"' ]
+	^ String streamContents: [ :s |
+		isStandard
+			ifTrue:[ s << '<' << fileName << '.h>' ]
+			ifFalse:[ s << '"' << fileName << '.h"' ]]
