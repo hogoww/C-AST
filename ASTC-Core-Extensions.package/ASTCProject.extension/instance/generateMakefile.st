@@ -4,7 +4,7 @@ generateMakefile
 	| makefile |
 		
 	makefile := FAMakefile new
-		supportFiles: self gatherSupportFiles;
+		setSupportFiles: self gatherSupportFiles;
 		mainFiles: self gatherMainFilesNames;
 		addTestRules.
 
