@@ -1,7 +1,7 @@
 comparing
 hash
 	| hash |
-	hash := 0.
+	hash := super hash.
 	hash := hash + rawDeclaration hash.
 	hash := hash + varName hash.
 	^ hash

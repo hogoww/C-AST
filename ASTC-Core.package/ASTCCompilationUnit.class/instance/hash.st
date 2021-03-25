@@ -1,7 +1,7 @@
 comparing
 hash
 	| hash |
-	hash := 0.
+	hash := super hash.
 	hash := hash + includes hash.
 	hash := hash + preamble hash.
 	hash := hash + defines hash.

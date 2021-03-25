@@ -10,7 +10,7 @@ addHashOn: aFMXClass
 	relations := aFMXClass relations select: [ :aRelation | (#parent = aRelation side name) not and:[ aRelation side otherSide isContainer ] ]
 		thenCollect: [ :aRelation | aRelation side name ].
 
-	body :=[ | hash | hash := 0 ] asPlainCodeBC.
+	body :=[ | hash | hash := super hash ] asPlainCodeBC.
 	
 	properties , relations do: [ :aSlot |
 		body + [ | hash | hash := hash + aSlot hash ]

@@ -1,6 +1,6 @@
 comparing
 hash
 	| hash |
-	hash := 0.
+	hash := super hash.
 	hash := hash + operand hash.
 	^ hash

@@ -1,7 +1,7 @@
 comparing
 hash
 	| hash |
-	hash := 0.
+	hash := super hash.
 	hash := hash + iteratorDefinition hash.
 	hash := hash + iteratorModification hash.
 	^ hash

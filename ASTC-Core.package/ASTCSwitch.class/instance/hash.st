@@ -1,7 +1,7 @@
 comparing
 hash
 	| hash |
-	hash := 0.
+	hash := super hash.
 	hash := hash + expression hash.
 	hash := hash + cases hash.
 	hash := hash + default hash.
