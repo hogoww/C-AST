@@ -6,7 +6,7 @@ defineProperties
 	"Having some kind of type check on those would be nice, generated in the debug visitor."
 	
 	cFile property: #fileName type: #String.
-	cFile property: #isLibrary type: #Boolean.
+	cFile property: #libraryName type: #String.
 	cFile property: #isStandard type: #Boolean.
 	
 	project property: #path type: #String.
