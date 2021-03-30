@@ -6,6 +6,7 @@ visitDeclaration: aDeclaration
 		<< $(;
 		<< 'aDeclaration';
 		space.
+	stream print: aDeclaration qualifiers.
 	currentDepth := currentDepth + 1.
 	super visitDeclaration: aDeclaration.
 	currentDepth := currentDepth - 1.

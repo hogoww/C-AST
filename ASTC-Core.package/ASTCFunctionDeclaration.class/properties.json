@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"qualifiers",
 		"type",
 		"parameters"
 	],

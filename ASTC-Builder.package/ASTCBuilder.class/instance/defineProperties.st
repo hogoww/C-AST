@@ -14,7 +14,7 @@ defineProperties
 	node property: #pharoNode type: #RBNode.
 	node property: #comment type: #String.
 
-	functionDeclaration property: #qualifiers type: #OrderedCollection.
+	declaration property: #qualifiers type: #OrderedCollection.
 
 	identifier property: #id type: #String.
 
