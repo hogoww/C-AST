@@ -1,3 +1,4 @@
 *ASTC-Core-Extensions
 addSupportCFile
-	cFiles := self gatherSupportFiles select: [ :aCFile | aCFile needToBeGenerated ].
+	cFiles addAll: (self gatherSupportFiles select: [ :aCFile | aCFile needToBeGenerated ]).
+	cFiles := cFiles asSet asOrderedCollection.
