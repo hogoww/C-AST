@@ -1,5 +1,6 @@
 visiting
 visitRawDeclaration: aRawDeclaration
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

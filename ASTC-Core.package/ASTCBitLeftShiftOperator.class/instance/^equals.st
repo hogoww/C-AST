@@ -1,5 +1,5 @@
 comparing
 = aBitLeftShiftOperator
-	super = aBitLeftShiftOperator
-		ifFalse: [ ^ false ].
+
+	super = aBitLeftShiftOperator ifFalse: [ ^ false ].
 	^ true

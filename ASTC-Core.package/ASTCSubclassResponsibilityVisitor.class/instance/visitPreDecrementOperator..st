@@ -1,3 +1,4 @@
 visiting
 visitPreDecrementOperator: aPreDecrementOperator
+
 	self subclassResponsibility

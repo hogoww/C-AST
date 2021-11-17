@@ -1,3 +1,4 @@
 testing
 isReturn
+
 	^ true

@@ -1,5 +1,6 @@
 visiting
 visitModuloOperator: aModuloOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

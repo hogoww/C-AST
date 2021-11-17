@@ -1,3 +1,4 @@
 testing
 isPreprocessorDefine
+
 	^ true

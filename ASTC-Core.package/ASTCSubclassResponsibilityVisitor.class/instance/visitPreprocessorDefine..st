@@ -1,3 +1,4 @@
 visiting
 visitPreprocessorDefine: aPreprocessorDefine
+
 	self subclassResponsibility

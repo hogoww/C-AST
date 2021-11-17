@@ -1,5 +1,6 @@
 visiting
 visitSwitchCase: aSwitchCase
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

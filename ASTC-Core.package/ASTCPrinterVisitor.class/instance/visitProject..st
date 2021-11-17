@@ -1,5 +1,6 @@
 visiting
 visitProject: aProject
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

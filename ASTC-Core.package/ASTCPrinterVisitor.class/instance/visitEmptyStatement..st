@@ -1,5 +1,6 @@
 visiting
 visitEmptyStatement: anEmptyStatement
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

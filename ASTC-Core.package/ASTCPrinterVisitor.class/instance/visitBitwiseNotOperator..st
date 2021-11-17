@@ -1,5 +1,6 @@
 visiting
 visitBitwiseNotOperator: aBitwiseNotOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

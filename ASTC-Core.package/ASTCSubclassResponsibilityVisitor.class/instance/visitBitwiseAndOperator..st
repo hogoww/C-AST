@@ -1,3 +1,4 @@
 visiting
 visitBitwiseAndOperator: aBitwiseAndOperator
+
 	self subclassResponsibility

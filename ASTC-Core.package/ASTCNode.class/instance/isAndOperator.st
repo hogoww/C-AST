@@ -1,3 +1,4 @@
 testing
 isAndOperator
+
 	^ false

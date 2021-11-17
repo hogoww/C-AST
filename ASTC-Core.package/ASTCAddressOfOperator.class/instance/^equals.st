@@ -1,5 +1,5 @@
 comparing
 = anAddressOfOperator
-	super = anAddressOfOperator
-		ifFalse: [ ^ false ].
+
+	super = anAddressOfOperator ifFalse: [ ^ false ].
 	^ true

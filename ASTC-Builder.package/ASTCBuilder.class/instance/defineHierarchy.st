@@ -18,7 +18,6 @@ defineHierarchy
 		statement --|> node.
 		declaration --|> node.
 		definition --|> node.
-		type --|> node.
 		
 			"Definition/declaration directSubclasses"
 			functionDeclaration --|> declaration.
@@ -32,6 +31,7 @@ defineHierarchy
 			
 		
 			"Expression direct Subclasses"
+			type --|> expression.
 			literal --|> expression.
 			arrayLiteral --|> expression.
 			functionCall  --|> expression.

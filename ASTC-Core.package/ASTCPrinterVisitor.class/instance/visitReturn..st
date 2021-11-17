@@ -1,5 +1,6 @@
 visiting
 visitReturn: aReturn
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

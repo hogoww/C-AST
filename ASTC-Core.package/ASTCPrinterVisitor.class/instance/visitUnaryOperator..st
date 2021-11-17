@@ -1,5 +1,6 @@
 visiting
 visitUnaryOperator: anUnaryOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

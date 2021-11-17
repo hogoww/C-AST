@@ -1,7 +1,6 @@
 comparing
 = anIdentifier
-	super = anIdentifier
-		ifFalse: [ ^ false ].
-	id = anIdentifier id
-		ifFalse: [ ^ false ].
+
+	super = anIdentifier ifFalse: [ ^ false ].
+	id = anIdentifier id ifFalse: [ ^ false ].
 	^ true

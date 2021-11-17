@@ -1,7 +1,6 @@
 comparing
 = aDefinition
-	super = aDefinition
-		ifFalse: [ ^ false ].
-	declaration = aDefinition declaration
-		ifFalse: [ ^ false ].
+
+	super = aDefinition ifFalse: [ ^ false ].
+	declaration = aDefinition declaration ifFalse: [ ^ false ].
 	^ true

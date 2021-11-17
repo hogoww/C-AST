@@ -1,5 +1,6 @@
 visiting
 visitRawCCode: aRawCCode
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

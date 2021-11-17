@@ -1,5 +1,6 @@
 visiting
 visitCompilationUnit: aCompilationUnit
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

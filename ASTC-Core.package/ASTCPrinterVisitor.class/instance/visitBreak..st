@@ -1,5 +1,6 @@
 visiting
 visitBreak: aBreak
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

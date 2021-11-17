@@ -1,5 +1,6 @@
 visiting
 visitIndexerOperator: anIndexerOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

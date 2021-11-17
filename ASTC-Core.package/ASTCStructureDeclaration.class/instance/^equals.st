@@ -1,5 +1,5 @@
 comparing
 = aStructureDeclaration
-	super = aStructureDeclaration
-		ifFalse: [ ^ false ].
+
+	super = aStructureDeclaration ifFalse: [ ^ false ].
 	^ true

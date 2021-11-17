@@ -1,3 +1,4 @@
 testing
 isTernaryConditionalOperator
+
 	^ false

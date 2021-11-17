@@ -1,7 +1,6 @@
 comparing
 = aStructureDefinition
-	super = aStructureDefinition
-		ifFalse: [ ^ false ].
-	members = aStructureDefinition members
-		ifFalse: [ ^ false ].
+
+	super = aStructureDefinition ifFalse: [ ^ false ].
+	members = aStructureDefinition members ifFalse: [ ^ false ].
 	^ true

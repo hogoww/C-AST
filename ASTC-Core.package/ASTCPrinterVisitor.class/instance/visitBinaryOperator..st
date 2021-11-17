@@ -1,5 +1,6 @@
 visiting
 visitBinaryOperator: aBinaryOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

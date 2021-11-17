@@ -1,5 +1,6 @@
 visiting
 visitStructureDeclaration: aStructureDeclaration
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

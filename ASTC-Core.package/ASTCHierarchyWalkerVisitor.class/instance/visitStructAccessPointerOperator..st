@@ -1,3 +1,4 @@
 visiting
 visitStructAccessPointerOperator: aStructAccessPointerOperator
+
 	^ self visitBinaryOperator: aStructAccessPointerOperator

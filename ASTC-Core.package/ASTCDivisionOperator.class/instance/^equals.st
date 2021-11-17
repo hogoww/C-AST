@@ -1,5 +1,5 @@
 comparing
 = aDivisionOperator
-	super = aDivisionOperator
-		ifFalse: [ ^ false ].
+
+	super = aDivisionOperator ifFalse: [ ^ false ].
 	^ true

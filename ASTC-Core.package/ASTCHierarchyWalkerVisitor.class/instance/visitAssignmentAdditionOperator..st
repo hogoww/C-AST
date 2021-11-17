@@ -1,3 +1,4 @@
 visiting
 visitAssignmentAdditionOperator: anAssignmentAdditionOperator
+
 	^ self visitBinaryOperator: anAssignmentAdditionOperator

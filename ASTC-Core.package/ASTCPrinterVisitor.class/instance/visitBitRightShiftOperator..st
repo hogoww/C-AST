@@ -1,5 +1,6 @@
 visiting
 visitBitRightShiftOperator: aBitRightShiftOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

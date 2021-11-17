@@ -1,3 +1,4 @@
 testing
 isVariableDefinition
+
 	^ false

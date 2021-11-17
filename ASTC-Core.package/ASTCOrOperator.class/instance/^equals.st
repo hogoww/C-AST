@@ -1,5 +1,5 @@
 comparing
 = anOrOperator
-	super = anOrOperator
-		ifFalse: [ ^ false ].
+
+	super = anOrOperator ifFalse: [ ^ false ].
 	^ true

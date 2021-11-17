@@ -1,3 +1,4 @@
 testing
 isRawDeclaration
+
 	^ true

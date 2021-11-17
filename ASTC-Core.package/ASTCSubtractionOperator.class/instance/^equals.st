@@ -1,5 +1,5 @@
 comparing
 = aSubtractionOperator
-	super = aSubtractionOperator
-		ifFalse: [ ^ false ].
+
+	super = aSubtractionOperator ifFalse: [ ^ false ].
 	^ true

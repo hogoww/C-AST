@@ -1,5 +1,6 @@
 visiting
 visitNode: aNode
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

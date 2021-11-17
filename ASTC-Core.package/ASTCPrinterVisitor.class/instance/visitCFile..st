@@ -1,5 +1,6 @@
 visiting
 visitCFile: aCFile
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

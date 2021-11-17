@@ -1,5 +1,6 @@
 visiting
 visitGreaterOperator: aGreaterOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

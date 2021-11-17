@@ -1,5 +1,6 @@
 visiting
 visitAssignmentOperator: anAssignmentOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

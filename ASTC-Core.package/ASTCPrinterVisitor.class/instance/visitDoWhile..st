@@ -1,5 +1,6 @@
 visiting
 visitDoWhile: aDoWhile
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

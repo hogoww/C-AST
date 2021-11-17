@@ -1,5 +1,5 @@
 comparing
 = aStructAccessStaticOperator
-	super = aStructAccessStaticOperator
-		ifFalse: [ ^ false ].
+
+	super = aStructAccessStaticOperator ifFalse: [ ^ false ].
 	^ true

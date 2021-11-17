@@ -1,5 +1,6 @@
 visiting
 visitEqualityOperator: anEqualityOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

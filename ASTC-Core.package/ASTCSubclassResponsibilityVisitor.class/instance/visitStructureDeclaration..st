@@ -1,3 +1,4 @@
 visiting
 visitStructureDeclaration: aStructureDeclaration
+
 	self subclassResponsibility

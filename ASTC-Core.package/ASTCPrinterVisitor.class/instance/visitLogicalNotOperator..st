@@ -1,5 +1,6 @@
 visiting
 visitLogicalNotOperator: aLogicalNotOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

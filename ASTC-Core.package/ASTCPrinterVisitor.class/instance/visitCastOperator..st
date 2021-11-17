@@ -1,5 +1,6 @@
 visiting
 visitCastOperator: aCastOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

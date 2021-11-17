@@ -1,4 +1,5 @@
 visiting
 visitDeclarationStatement: aDeclarationStatement
-	aDeclarationStatement declaration
-		ifNotNil: [ :aDeclaration | aDeclaration acceptVisitor: self ]
+
+	aDeclarationStatement declaration ifNotNil: [ :aDeclaration | 
+		aDeclaration acceptVisitor: self ]

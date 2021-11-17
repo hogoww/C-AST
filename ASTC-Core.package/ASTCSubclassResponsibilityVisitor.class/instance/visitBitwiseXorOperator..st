@@ -1,3 +1,4 @@
 visiting
 visitBitwiseXorOperator: aBitwiseXorOperator
+
 	self subclassResponsibility

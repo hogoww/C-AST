@@ -1,5 +1,5 @@
 comparing
 = aWhile
-	super = aWhile
-		ifFalse: [ ^ false ].
+
+	super = aWhile ifFalse: [ ^ false ].
 	^ true

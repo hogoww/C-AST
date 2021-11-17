@@ -1,5 +1,6 @@
 visiting
 visitPreprocessorInclude: aPreprocessorInclude
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

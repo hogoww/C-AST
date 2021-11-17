@@ -1,9 +1,7 @@
 comparing
 = aBlock
-	super = aBlock
-		ifFalse: [ ^ false ].
-	statements = aBlock statements
-		ifFalse: [ ^ false ].
-	declarations = aBlock declarations
-		ifFalse: [ ^ false ].
+
+	super = aBlock ifFalse: [ ^ false ].
+	statements = aBlock statements ifFalse: [ ^ false ].
+	declarations = aBlock declarations ifFalse: [ ^ false ].
 	^ true

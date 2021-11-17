@@ -1,5 +1,6 @@
 visiting
 visitMultiplicationOperator: aMultiplicationOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

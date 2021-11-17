@@ -1,5 +1,5 @@
 comparing
 = aBitwiseNotOperator
-	super = aBitwiseNotOperator
-		ifFalse: [ ^ false ].
+
+	super = aBitwiseNotOperator ifFalse: [ ^ false ].
 	^ true

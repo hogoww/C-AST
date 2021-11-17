@@ -1,3 +1,4 @@
 visiting
 visitDeclaration: aDeclaration
+
 	

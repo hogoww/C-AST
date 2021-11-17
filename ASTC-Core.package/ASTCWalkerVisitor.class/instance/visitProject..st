@@ -1,5 +1,5 @@
 visiting
 visitProject: aProject
-	aProject cFiles
-		ifNotNil:
-			[ :cFiles | cFiles do: [ :aCFiles | aCFiles acceptVisitor: self ] ]
+
+	aProject cFiles ifNotNil: [ :cFiles | 
+		cFiles do: [ :aCFiles | aCFiles acceptVisitor: self ] ]

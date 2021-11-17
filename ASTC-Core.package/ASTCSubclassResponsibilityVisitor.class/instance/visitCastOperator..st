@@ -1,3 +1,4 @@
 visiting
 visitCastOperator: aCastOperator
+
 	self subclassResponsibility

@@ -1,5 +1,5 @@
 comparing
 = aGreaterOrEqualOperator
-	super = aGreaterOrEqualOperator
-		ifFalse: [ ^ false ].
+
+	super = aGreaterOrEqualOperator ifFalse: [ ^ false ].
 	^ true

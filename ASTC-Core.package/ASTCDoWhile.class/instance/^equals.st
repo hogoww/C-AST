@@ -1,5 +1,5 @@
 comparing
 = aDoWhile
-	super = aDoWhile
-		ifFalse: [ ^ false ].
+
+	super = aDoWhile ifFalse: [ ^ false ].
 	^ true

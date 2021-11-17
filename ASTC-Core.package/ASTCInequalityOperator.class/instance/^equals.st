@@ -1,5 +1,5 @@
 comparing
 = anInequalityOperator
-	super = anInequalityOperator
-		ifFalse: [ ^ false ].
+
+	super = anInequalityOperator ifFalse: [ ^ false ].
 	^ true

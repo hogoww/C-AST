@@ -1,3 +1,4 @@
 visiting
 visitVariableDefinition: aVariableDefinition
+
 	self subclassResponsibility

@@ -1,5 +1,6 @@
 visiting
 visitTernaryConditionalOperator: aTernaryConditionalOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

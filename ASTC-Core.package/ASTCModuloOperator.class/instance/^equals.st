@@ -1,5 +1,5 @@
 comparing
 = aModuloOperator
-	super = aModuloOperator
-		ifFalse: [ ^ false ].
+
+	super = aModuloOperator ifFalse: [ ^ false ].
 	^ true

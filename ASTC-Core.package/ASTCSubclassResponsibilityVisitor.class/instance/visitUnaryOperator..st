@@ -1,3 +1,4 @@
 visiting
 visitUnaryOperator: anUnaryOperator
+
 	self subclassResponsibility

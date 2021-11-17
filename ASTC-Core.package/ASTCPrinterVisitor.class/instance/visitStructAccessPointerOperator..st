@@ -1,5 +1,6 @@
 visiting
 visitStructAccessPointerOperator: aStructAccessPointerOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

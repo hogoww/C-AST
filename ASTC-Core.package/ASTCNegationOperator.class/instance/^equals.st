@@ -1,5 +1,5 @@
 comparing
 = aNegationOperator
-	super = aNegationOperator
-		ifFalse: [ ^ false ].
+
+	super = aNegationOperator ifFalse: [ ^ false ].
 	^ true

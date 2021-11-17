@@ -1,3 +1,4 @@
 testing
 isType
+
 	^ false

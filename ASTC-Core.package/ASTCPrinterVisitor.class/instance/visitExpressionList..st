@@ -1,5 +1,6 @@
 visiting
 visitExpressionList: anExpressionList
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

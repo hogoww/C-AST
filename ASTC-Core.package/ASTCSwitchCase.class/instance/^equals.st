@@ -1,9 +1,7 @@
 comparing
 = aSwitchCase
-	super = aSwitchCase
-		ifFalse: [ ^ false ].
-	expression = aSwitchCase expression
-		ifFalse: [ ^ false ].
-	body = aSwitchCase body
-		ifFalse: [ ^ false ].
+
+	super = aSwitchCase ifFalse: [ ^ false ].
+	expression = aSwitchCase expression ifFalse: [ ^ false ].
+	body = aSwitchCase body ifFalse: [ ^ false ].
 	^ true

@@ -1,5 +1,5 @@
 comparing
 = aStructAccessPointerOperator
-	super = aStructAccessPointerOperator
-		ifFalse: [ ^ false ].
+
+	super = aStructAccessPointerOperator ifFalse: [ ^ false ].
 	^ true

@@ -1,5 +1,5 @@
 comparing
 = aPreIncrementOperator
-	super = aPreIncrementOperator
-		ifFalse: [ ^ false ].
+
+	super = aPreIncrementOperator ifFalse: [ ^ false ].
 	^ true

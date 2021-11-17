@@ -1,5 +1,6 @@
 visiting
 visitFunctionCall: aFunctionCall
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

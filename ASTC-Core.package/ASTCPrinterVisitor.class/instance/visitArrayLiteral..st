@@ -1,5 +1,6 @@
 visiting
 visitArrayLiteral: anArrayLiteral
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

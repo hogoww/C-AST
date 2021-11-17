@@ -1,5 +1,6 @@
 visiting
 visitBlock: aBlock
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

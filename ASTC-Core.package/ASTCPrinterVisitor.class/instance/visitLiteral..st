@@ -1,5 +1,6 @@
 visiting
 visitLiteral: aLiteral
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

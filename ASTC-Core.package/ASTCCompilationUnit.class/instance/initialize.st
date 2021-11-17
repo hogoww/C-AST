@@ -1,5 +1,6 @@
 initialization
 initialize
+
 	includes := OrderedCollection new.
 	defines := OrderedCollection new.
 	structTypes := OrderedCollection new.

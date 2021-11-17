@@ -1,5 +1,5 @@
 comparing
 = anAbstractWhile
-	super = anAbstractWhile
-		ifFalse: [ ^ false ].
+
+	super = anAbstractWhile ifFalse: [ ^ false ].
 	^ true

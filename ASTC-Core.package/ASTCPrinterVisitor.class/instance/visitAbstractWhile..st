@@ -1,5 +1,6 @@
 visiting
 visitAbstractWhile: anAbstractWhile
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

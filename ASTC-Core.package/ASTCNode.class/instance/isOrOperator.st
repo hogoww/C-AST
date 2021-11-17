@@ -1,3 +1,4 @@
 testing
 isOrOperator
+
 	^ false

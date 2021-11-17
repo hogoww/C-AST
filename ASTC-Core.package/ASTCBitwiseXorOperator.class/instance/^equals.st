@@ -1,5 +1,5 @@
 comparing
 = aBitwiseXorOperator
-	super = aBitwiseXorOperator
-		ifFalse: [ ^ false ].
+
+	super = aBitwiseXorOperator ifFalse: [ ^ false ].
 	^ true

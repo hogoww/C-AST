@@ -1,3 +1,4 @@
 testing
 isStructAccessStaticOperator
+
 	^ false

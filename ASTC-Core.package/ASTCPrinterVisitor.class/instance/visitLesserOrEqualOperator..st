@@ -1,5 +1,6 @@
 visiting
 visitLesserOrEqualOperator: aLesserOrEqualOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

@@ -1,5 +1,6 @@
 visiting
 visitAddressOfOperator: anAddressOfOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

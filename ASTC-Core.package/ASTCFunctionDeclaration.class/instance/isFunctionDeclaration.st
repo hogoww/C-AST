@@ -1,3 +1,4 @@
 testing
 isFunctionDeclaration
+
 	^ true

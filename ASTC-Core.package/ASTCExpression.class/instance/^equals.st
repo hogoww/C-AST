@@ -1,5 +1,5 @@
 comparing
 = anExpression
-	super = anExpression
-		ifFalse: [ ^ false ].
+
+	super = anExpression ifFalse: [ ^ false ].
 	^ true

@@ -1,3 +1,4 @@
 visiting
 visitAddressOfOperator: anAddressOfOperator
+
 	self subclassResponsibility

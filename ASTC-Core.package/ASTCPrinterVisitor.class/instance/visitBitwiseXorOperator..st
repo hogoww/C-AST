@@ -1,5 +1,6 @@
 visiting
 visitBitwiseXorOperator: aBitwiseXorOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

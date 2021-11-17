@@ -1,5 +1,6 @@
 visiting
 visitNegationOperator: aNegationOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

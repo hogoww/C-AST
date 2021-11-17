@@ -1,5 +1,5 @@
 comparing
 = anEmptyStatement
-	super = anEmptyStatement
-		ifFalse: [ ^ false ].
+
+	super = anEmptyStatement ifFalse: [ ^ false ].
 	^ true

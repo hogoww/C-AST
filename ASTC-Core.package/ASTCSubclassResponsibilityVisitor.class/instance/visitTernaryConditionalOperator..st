@@ -1,3 +1,4 @@
 visiting
 visitTernaryConditionalOperator: aTernaryConditionalOperator
+
 	self subclassResponsibility

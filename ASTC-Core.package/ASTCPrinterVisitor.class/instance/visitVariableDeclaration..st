@@ -1,5 +1,6 @@
 visiting
 visitVariableDeclaration: aVariableDeclaration
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

@@ -1,5 +1,6 @@
 visiting
 visitPreIncrementOperator: aPreIncrementOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

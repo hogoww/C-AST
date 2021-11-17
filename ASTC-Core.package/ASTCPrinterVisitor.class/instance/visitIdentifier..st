@@ -1,5 +1,6 @@
 visiting
 visitIdentifier: anIdentifier
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

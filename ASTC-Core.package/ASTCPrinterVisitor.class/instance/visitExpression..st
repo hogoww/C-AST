@@ -1,5 +1,6 @@
 visiting
 visitExpression: anExpression
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

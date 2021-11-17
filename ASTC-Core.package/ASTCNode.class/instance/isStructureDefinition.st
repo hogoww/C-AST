@@ -1,3 +1,4 @@
 testing
 isStructureDefinition
+
 	^ false

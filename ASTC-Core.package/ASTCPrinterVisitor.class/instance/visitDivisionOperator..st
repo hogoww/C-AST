@@ -1,5 +1,6 @@
 visiting
 visitDivisionOperator: aDivisionOperator
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream

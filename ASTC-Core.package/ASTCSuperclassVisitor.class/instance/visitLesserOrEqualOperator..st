@@ -1,3 +1,4 @@
 visiting
 visitLesserOrEqualOperator: aLesserOrEqualOperator
+
 	^ self visitBinaryOperator: aLesserOrEqualOperator

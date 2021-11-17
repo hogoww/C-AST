@@ -1,7 +1,6 @@
 comparing
 = aVariableDeclaration
-	super = aVariableDeclaration
-		ifFalse: [ ^ false ].
-	type = aVariableDeclaration type
-		ifFalse: [ ^ false ].
+
+	super = aVariableDeclaration ifFalse: [ ^ false ].
+	type = aVariableDeclaration type ifFalse: [ ^ false ].
 	^ true

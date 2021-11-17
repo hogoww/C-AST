@@ -1,3 +1,4 @@
 visiting
 visitType: aType
-	^ self visitNode: aType
+
+	^ self visitExpression: aType

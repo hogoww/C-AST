@@ -1,6 +1,6 @@
 visiting
 visitProject: aProject
+
 	super visitProject: aProject.
-	aProject cFiles
-		ifNotNil:
-			[ :cFiles | cFiles do: [ :aCFiles | self assert: aCFiles isCFile ] ]
+	aProject cFiles ifNotNil: [ :cFiles | 
+		cFiles do: [ :aCFiles | self assert: aCFiles isCFile ] ]

@@ -1,5 +1,6 @@
 visiting
 visitLoop: aLoop
+
 	stream cr.
 	self printTabCount: currentDepth.
 	stream
