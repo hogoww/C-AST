@@ -1,4 +1,4 @@
 *ASTC-Core-Extensions
 path
 	self flag: #todo.
-	^ './generated/tests/'
+	^ (FileSystem workingDirectory / 'generated' / 'tests') pathString 
